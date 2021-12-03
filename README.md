@@ -44,14 +44,14 @@ We can breakdown this URL into the following:
    
    
     
-After finding Santa's account, what is their position in the company?
+* After finding Santa's account, what is their position in the company?
   ***The Boss!***
  
-After finding McStocker's account, what is their position in the company?
+* After finding McStocker's account, what is their position in the company?
  ***Build Manager***
   
- After finding the account responsible for tampering, what is their position in the company?
+ * After finding the account responsible for tampering, what is their position in the company?
    ***Mischief Manager***
     
-  What is the received flag when McSkidy fixes the Inventory Management System?
+ * What is the received flag when McSkidy fixes the Inventory Management System?
     ***THM{AOC_IDOR_2B34BHI3}***
