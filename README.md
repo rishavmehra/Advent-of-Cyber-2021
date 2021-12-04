@@ -58,3 +58,11 @@ We can breakdown this URL into the following:
 
 # Day2
   ## Elf HR Problems
+
+<b>Learning Objectives</b>
+
+
+* Understanding the underlying technology of web servers and how the web communicates.
+* Understand what cookies are and their purpose.
+* Learn how to manipulate and manage cookies for malicious use.
+
