@@ -55,3 +55,5 @@ We can breakdown this URL into the following:
     
  * What is the received flag when McSkidy fixes the Inventory Management System?
     ***THM{AOC_IDOR_2B34BHI3}***
+
+# Day2
