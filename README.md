@@ -3,7 +3,7 @@
 
   Topics that will be in these challenges include: Web Exploitation, Forensics, OSINT, Scripting, Networking, and Reverse Engineering
 
-<h2>Day1</h2><h3>Web Exploitation Save The Gifts:</h3> </hr>
+<h2>Day1</h2><h3>Web Exploitation [Save The Gifts]:</h3> </hr>
 
     Learning Objectives
 
