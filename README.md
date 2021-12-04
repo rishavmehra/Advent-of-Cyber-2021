@@ -66,3 +66,28 @@ We can breakdown this URL into the following:
 * Understand what cookies are and their purpose.
 * Learn how to manipulate and manage cookies for malicious use.
 
+ ## how the web communicates
+ 
+ <img src="https://github.com/rishavmehra/Advent-of-Cyber-2021/blob/main/images/day2.png"  width="500" height="200">
+ 
+ ## Cookies and their purpose
+ HTTP is a stateless protocol. When you send requests to a web server, the server cannot distinguish your request from someone else's request.. To solve the stateless problem and identify different users and access levels, the webserver will assign cookies to create and manage a stateful session between client and server.
+
+Cookies are tiny pieces of data (metadata) or information locally stored on your computer that are sent to the server when you make a request.
+
+Cookies can be assigned any name and any value allowing the webserver to store any information it wants. Today we will be focusing on authentication cookies, also known as session cookies. Authentication or session cookies are used to identify you and what access level is attached to your session.
+
+Below is a diagram describing assigning and using a cookie from the initial request to the session request.
+<img src="https://github.com/rishavmehra/Advent-of-Cyber-2021/blob/main/images/64c8a1a54a0e08d9e89701307462f24b.png" >
+
+## How to manipulate and manage cookies for malicious use
+
+Cookie manipulation is taking a cookie and modifying it to obtain unintended behavior determined by the web developer. Cookie manipulation is possible because cookies are stored locally on your host system, meaning you have complete control over them and modify them as you please.</br>
+          Cookie values may seem random at first; however, they often have an encoded value or meaning behind them that can be decoded to a non-arbitrary value such as a Javascript object.</br>
+
+From an attacker's perspective, you can decode the cookie value to identify the underlying objects. Once you have identified the underlying objects, you can modify them to what you want. To use the cookie, you will need to encode it back to the original encoding and replace the cookie value. Below is an example of a decoded cookie value.</br>
+
+<code>{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}</code>
+
+
+
