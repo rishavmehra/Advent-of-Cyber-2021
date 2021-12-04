@@ -5,7 +5,7 @@
 
 <h2>Day1</h2><h3>Web Exploitation [Save The Gifts]:</h3> </hr>
 
-    Learning Objectives
+<b>Learning Objectives</b>
 
 1. What is an IDOR vulnerability?
 2. How do I find and exploit IDOR vulnerabilities?
