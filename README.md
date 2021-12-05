@@ -89,5 +89,10 @@ From an attacker's perspective, you can decode the cookie value to identify the 
 
 <code>{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}</code>
 
+# DAY3
+## Christmas Blackout
+ ### What is Content Discovery & Why is it Useful?
 
+Before we begin looking for content, let's define what "content" actually is. Content is the assets and inner workings of the application that we are testing. Contents can be files, folders, or pathways that weren't necessarily intended to be accessed by the general public.
 
+For example, you may have a blog, where you post about your tasty treats! You want everyone to view all of your delicious snacks, but you don't want everyone to be able to manage what delicious snacks are up for review - You may hide the administrator panel away from the public!
